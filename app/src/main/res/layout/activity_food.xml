@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="#000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.aprylianmaulana.healthycare.FoodActivity">
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tittle"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textBB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan :"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:gravity="left"
+            android:layout_below="@id/textFood"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editBB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:textColor="#000"
+            android:inputType="number|numberDecimal"
+            android:hint="(Kg)"
+            android:textSize="13sp"
+            android:layout_alignTop="@id/textBB"
+            android:layout_below="@id/textFood"
+            android:layout_marginTop="15dp"
+            android:layout_alignLeft="@id/textBB" />
+
+
+        <TextView
+            android:id="@+id/textTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tinggi Badan :"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_below="@id/textBB"
+            android:layout_marginTop="30dp"
+            android:layout_alignLeft="@id/textBB" />
+        <EditText
+            android:id="@+id/editTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:textColor="#000"
+            android:inputType="number|numberDecimal"
+            android:hint="(Cm)"
+            android:textSize="13sp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/editBB"
+            android:layout_alignLeft="@id/editBB" />
+
+        <Button
+            android:id="@+id/hitungBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/editTB"
+            android:layout_marginTop="55dp"
+            android:onClick="calculateBMI"
+            android:background="#149"
+            android:layout_centerHorizontal="true"
+            android:text="Hitung"
+            android:textColor="@color/cardview_light_background"/>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hitungBMI"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:text="Skor BMI Anda adalah:"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/Hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/result"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imageBmi"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@id/Hasil"
+            android:src="@drawable/bmii"/>
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/panduanView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_below="@id/cardView"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/panduan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PANDUAN POLA MAKAN"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+       <android.support.v7.widget.CardView
+           android:id="@+id/p1"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_below="@id/panduan"
+           android:layout_marginTop="20dp">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+               <ImageView
+                   android:layout_width="90dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/iconkurus"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="Berat Badan Kurus"
+                   android:textColor="#000"
+                   android:layout_marginLeft="110dp"
+                   android:layout_marginRight="8dp"
+                   android:textSize="20sp"/>
+       </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/p1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/iconnormal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Berat Badan Normal"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/p2">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icongemuk"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Berat Badan Gemuk"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/p3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/iconobesitas"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Berat Badan Obesitas"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

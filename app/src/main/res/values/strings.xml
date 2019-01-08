@@ -1,0 +1,150 @@
+<resources>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+
+    <string name="app_name">Healthy Care</string>
+    <string name="tittle">HITUNG BERAT BADAN ANDA</string>
+    <string name="radio_pria">Pria</string>
+    <string name="radio_wanita">Wanita</string>
+
+
+    <string name="underweight">BERAT BADAN ANDA KURUS</string>
+    <string name="normal">BERAT BADAN ANDA NORMAL</string>
+    <string name="overweight">BERAT BADAN ANDA GEMUK</string>
+    <string name="obesitas">ANDA OBESITAS!</string>
+
+    <string name="isi_jdl1">Tetapkan interval makan yang paling cocok karena kondisi fisik setiap orang berbeda. Apabila
+        Anda terbiasa makan 3 kali sehari, maka Anda dapat menambahkan menjadi 4 atau 5 kali sehari. Jika sudah menemukan
+        interval makan yang sesuai, jalani secara disiplin dan teratur. Jangan lupa memberi jeda untuk minum sekitar kurang lebih 5 menit sebelum atau sesudah makan,
+    karena minum saat makan justru akan membuat Anda cepat kenyang.</string>
+
+    <string name="isi_jdl2">Tubuh Anda membutuhkan asupan lemak 2 kali lebih banyak untuk meningkatkan berat badan Anda.
+    Pilihlah lemak sehat yang bermanfaat untuk menjaga kesehatan tubuh dan jantung. Lemak semacam ini terkandung dalam makanan
+    seperti kacang-kacangan, ikan laut, buah alpukat. Selain itu juga ada minyak zaitun, serta minyak canola yang bisa Anda gunakan
+        untuk menumis atau mencampurkan ke makanan utama Anda.</string>
+
+    <string name="isi_jdl3">Protein merupakan salah satu zat pembentuk sel-sel otot sehingga
+        protein sangat diperlukan tubuh untuk meningkatkan massa otot agar berat badan bertambah. Jumlah kalori yang
+        dibutuhkan setiap orang bisa berbeda-beda. Cobalah untuk menambah konsumsi protein dengan mengonsumsi makanan
+        seperti daging sapi, daging ayam, keju, susu berkrim, ikan dan telur. Bagi Anda yang vegetarian, protein juga dapat ditemukan
+        pada produk kedelai seperti tahu dan tempe, serta polong-polongan.</string>
+
+    <string name="isi_jdl4">Karbohidrat merupakan sumber energi utama bagi tubuh untuk menjalani aktivitas sehari-hari.
+        Karbohidrat diperlukan untuk membentuk otot dan menunjang fungsi penting organ-organ tubuh. Kurangi karbohidrat sederhana
+        seperti nasi putih, gula pasir dan permen karena karbohidrat sederhana ini lebih cepat diubah menjadi glukosa
+        sehingga kadar gula dalam darah meningkat. Pilihlah karbohidrat kompleks yang bisa Anda dapatkan dari gandum utuh, beras merah, dan ubi.</string>
+
+    <string name="mpendamping1">Anda juga dapat membuat menu makanan selingan yang dapat Anda makan diantara makan siang,
+    dan makan malam dengan membuat roti isi, salad segar, dan beberapa camilan ringan.</string>
+
+    <string name="isi_normal1">Sesibuk apapun Anda di pagi hari jangan lupakan sarapan, karena sarapan akan memberikan
+    energi untuk tubuh Anda. Selain itu, melupakan sarapan dapat membuat Anda menyantap lebih banyak makanan pada jam makan siang, dimana
+    hal tersebut akan berdampak pada bertambahnya berat badan Anda. </string>
+
+    <string name="isi_normal2">Untuk menjaga agar berat badan tetap dalam kondisi ideal, Anda perlu membatasi asupan lemak dan
+    karbohidrat. Memang tubuh memerlukan lemak dan karbohidrat sebagai sumber energi, tetapi Anda juga perlu memerhatikan porsi dan
+    frekuensinya. Jaga keseimbangan nutrisi makanan yang sehat dan batasi makanan yang bisa menaikkan berat badan Anda. </string>
+
+    <string name="isi_normal3">Selain untuk membantu pencernaan agar tetap berfungsi dengan baik, mengkonsumsi makanan kaya serat diyakini dapat menjaga berat badan Anda tetap ideal, karena makanan
+    berserat ini dapat membuat Anda merasa kenyang sehingga pas jika dijadikan makanan selingan apabila Anda sudah lapar sebelum jam makan utama. </string>
+
+    <string name="isi_normal4">Mengkonsumsi air putih yang banyak sangat penting untuk mempertahankan berat badan ideal Anda.
+     Selain membantu metabolisme agar pembakaran lemak dapat terjadi dengan mudah, meminum 600ml air putih sebelum makan juga dapat
+    membuat perut terasa agak kenyang, sehingga Anda dapat mengurangi porsi makan menjadi lebih sedikit. Cara ini cukup efektif untuk
+    mengontrol jumlah asupan makanan ke tubuh Anda.</string>
+
+    <string name="isi_gemuk1">Atur jadwal makan Anda tanpa diubah-ubah. Misalnya, jam makan pagi pukul 7.00,
+    jam makan siang pukul 13.00 dan jam makan malam pukul 19.00. pertahankan waktu makan yang sudah dibentuk untuk tetap
+    dijalankan dalam waktu tetap dan tidak dirubah-rubah setiap hari. Jangan pernah meninggalkan makan,
+    kerena jika Anda menunda lapar justru Anda akan lebih banyak makan dengan porsi yang besar meskipun hanya satu kali.</string>
+
+    <string name="isi_gemuk2">Bila Anda selalu makan nasi putih, cobalah usahakan diganti dengan sumber karbohidrat kompleks seperti beras
+    merah atau gandum utuh. Karbohidrat kompleks akan membuat Anda kenyang lebih lama dan menunda lapar serta menghilangkan selera ngemil.
+    Kurangi makanan cepat saji dan beberapa jenis makanan berlemak/berkosterol tinggi termasuk daging. Tingkatkan juga asupan serat yang akan melancarkan pencernaan.</string>
+
+    <string name="isi_gemuk3">Hal ini perlu dilakukan untuk menghindari Anda mengkonsumsi camilan yang tidak sehat.
+    Konsumsilah buah sebagai pengganti camilanmu. Buah dapat mengobati rasa lapar dengan kandungan gula alaminya,
+    dan yang paling penting, ini membantumu dalam menurunkan berat badan. Selain buah Anda juga dapat membuat camilan dari sayuran yang dikukus.</string>
+
+    <string name="isi_gemuk4">Mengonsumsi makanan berat di siang hari dapat memberikan tambahan energi,
+    mengendalikan nafsu makan dan meningkatkan kesehatan secara keseluruhan. Namun jika makanan berat tersebut dimakan di malam hari
+    justru bisa berakibat sebaliknya, karena makanan yang dimakan pada malam hari apalagi jika dimakan kurang dari 3 jam sebelum tidur, maka
+    makanan tersebut tidak terserap sempurna oleh tubuh dan justru akan disimpan menjadi lemak pada tubuh Anda.</string>
+
+    <string name="isi_obesitas1">Makanan junk food ini mengandung kalori dan lemak yang sangat tinggi namun sedikit sekali nutrisi.
+    Bayangkan disaat tubuh Anda sudah menyimpan stok lemak yang begitu banyak tapi ditambah lagi karena Anda mengkonsumsi junk food, maka
+    berat badan Anda akan terus meroket naik disertai dengan resiko terkena penyakit-penyakit mengerikan seperti diabetes, kolesterol, strooke,
+    dan masih banyak lagi. Oleh karena itu, berhenti mengkonsumsi junk food adalah hal yang harus Anda lakukan.</string>
+
+    <string name="isi_obesitas2">Gula adalah salah satu makanan sumber energi, gula akan dipecah oleh insulin dan diubah menjadi energi yang disimpan dalam bentuk
+    glikogen (simpanan energi). Dan apabila simpanan energi itu sudah menumpuk, maka glikogen tersebut akan diubah menjadi lemak. Sebaiknya,
+    jika Anda ingin tetap merasakan manis ganti lah gula pasir Anda menjadi manisan alami seperti madu atau manis dari buah-buahan yang jauh
+    lebih sehat, namun tetap harus dibatasi jumlah dan frekuensinya.</string>
+
+    <string name="isi_obesitas3">Karbohidrat tetap dibutuhkan tubuh sebagai sumber energi utama, namun Anda harus benar-benar
+    membatasi asupan karbohidrat ke dalam tubuh sekitar 150-200 gram. Pilihlah karbohidrat kompleks karena penyerapan lambat memberi
+    efek menguntungkan pada kadar gula darah dan menjaga tingkat insulin tetap stabil, karbohidrat kompleks juga mampu memfasilitasi
+    suplai energi secara stabil dalam jangka lebih lama dan dapat membuat kenyang lebih lama. </string>
+
+    <string name="isi_obesitas4">Semua jenis buah-buahan dan sayuran adalah makanan yang sehat karena mengandung vitamin dan mineral,
+    serta memiliki jumlah lemak dan kadar kalori yang rendah. Selain rendah kalori, buah-buahan dan sayuran juga merupakan sumber makanan yang
+    kaya serat dan berguna untuk metabolisme tubuh. Asupan buah-buahan dan sayuran secara rutin dipercaya dapat menjauhkan manusia dari
+    penyakit jantung dan menurunkan tekanan darah tinggi yang rentan dialami pengidap obesitas.</string>
+
+    <string name="jumping_jack">Berdiri tegak dengan posisi kaki rapat dan tangan di samping tubuh.
+    Setelah itu lakukan lompatan kecil. Selagi tubuh kita berada di udara, rentangkan kaki dengan lebar sebahu atau lebih lebar lagi jika mampu.
+    Sembari merentangkan kaki, angkat juga kedua tangan dengan rileks. Segera lakukan gerakan sebaliknya untuk lompat kembali ke posisi berdiri tegak.
+    Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="wall_sit">Berdiri dengan punggung bersandar lurus ke dinding. Setelah itu langkahkan kedua kaki ke depan sekitar
+    60cm atau 1 langkah kecil, lalu rentangkan kaki selebar bahu. Selanjutnya geser tubuh kebawah dan tekuk kedua lutut hingga membentuk
+    sudut 90 derajat. Pertahankan posisi tersebut dan pastikan telapak kaki menapak sempurna ke lantai dengan berat merata. Beri jeda 10 detik sebelum melakukan workout
+    selanjutnya.</string>
+
+    <string name="pushup">Mulai dengan posisi tengkurap di lantai dengan tangan direntangkan segaris dengan bahu, jaga kaki agar selalu berdekatan.
+    Angkat tubuh menggunakan lengan dan biarkan berat badan ditopang oleh tangan dan pangkal jari kaki. Pastikan tubuh membentuk garis lurus sejajar
+    dari bahu hingga pergelangan kaki. Selanjutnya turunkan tubuh hingga dada hampir menyentuh lantai, kemudian angkat tubuh kembali keposisi awal dengan lengan.
+    Pastikan Anda mengatur nafas saat melakukan push up. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="abdo_crunch">Berbaring terlentang dengan meluruskan kaki dan tangan di lantai. Setelah itu tekuk kedua lutut kaki
+    dan angkat kedua tangan sejajarkan dengan paha Anda. Selanjutnya angkat bahu Anda dari lantai dengan tetap menjaga punggung menyentuh lantai.
+    Turunkan kembali bahu dengan perlahan sambil menarik nafas. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="stepup">Siapkan kursi dan taruh di depan Anda. Berdiri sikap sempurna menghadap kursi lalu angkat kaki kanan hingga
+    telapak kaki menapak pada kursi. Kemudian ambil langkah tekan atau injak kursi hingga tubuh terangkat dan naikan juga kaki kiri Anda.
+    Saat Anda berdiri di kursi, kembali ke posisi awal dengan menurunkan kaki kanan terlebih dahulu dan diikuti kaki kiri. Ulangi gerakan
+    tersebut secara bergantian menggunakan kaki kiri dan kanan. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="squat">Berdiri tegak dengan kaki direntangkan selebar dengan bahu. Setelah itu dorong pinggul Anda ke belakang
+    hingga lutut menekuk membentuk 90 derajat menyerupai sedang duduk, tekuk lutut hingga paha lurus sejajar (pastikan lutut tidak
+    melebihi ujung jari kaki). Saat pinggul sedang menekuk pastikan punggung lurus sejajar dan dada sedikit dibusungkan, serta pandangan
+    dan tangan lurus kedepan. Selanjutnya angkat tubuh secara perlahan menggunakan lutut hingga kembali ke posisi awal sambil menurunkan
+    tangan ke posisi lurus tegap. Beri jeda 10 detik sebelum melakukan workout selanjutnya. </string>
+
+    <string name="tc">Siapkan kursi dan taruh membelakangi tubuh Anda. Ambil posisi duduk atau jongkok, letakan kedua telapak
+    tangan di ujung pinggir kursi. Tekan kursi menggunakan lengan hingga badan Anda sedikit terangkat, kemudian luruskan kaki ke depan
+    hingga hanya tumit yang menapak ke lantai. Perlahan-lahan turunkan tubuh Anda hingga sendi bahu sejajar sejajar siku. Setelah itu
+    dorong kembali keatas hingga siku hampir lurus, ulangi gerakan tersebut. Beri jeda 10 detik sebelum melakukan workout selanjutnya. </string>
+
+    <string name="plank">Mulai dari posisi tengkurap, letakkan kedua siku rata dengan lantai. Lalu angkat sedikit tubuh Anda dengan
+    tumpuan siku dan telapak jari kaki. Pastikan tubuh Anda membentuk garis lurus mulai dari bahu hingga pergelangan kaki. Kunci atau keraskan
+    otot perut dan tahan posisi ini, atur tarikan nafas dengan baik. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="hk">Berdiri tegak dengan membuka kaki selebar pinggul, pandangan lurus ke depan dan lengan menggantung ke bawah pada sisi tubuh Anda.
+    Lakukan gerakan lari dengan sedikit lompatan dari satu kaki ke kaki lain dengan mengangkat lutut setinggi mungkin atau setinggi pinggul.
+    Gerakan lengan berlawanan dengan gerakan kaki. Atur tarikan nafas dengan baik. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="lunge">Berdiri tegak dengan tangan disamping tubuh. Langkahkan kaki kanan Anda ke depan dan perlahan-lahan turunkan
+    tubuh hingga lutut kaki kanan membentuk sudut 90 derajat. Perhatikan agar lutut kaki kiri yang menekuk tidak boleh menyentuh lantai. Dorong
+    kembali tubuh Anda ke atas dan tarik kembali kaki kanan Anda ke posisi awal. Lakukan gerakan yang sama menggunakan kaki kiri.
+    Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="pr">Lakukan posisi yang sama seperti push up. Namun ketika badan naik, putar tubuh bagian atas ke kanan atau kiri dengan meluruskan lengan ke atas.
+    Kembali ke posisi push up, lalu ulangi gerakan tersebut dengan bergantian antara kanan dan kiri. Beri jeda 10 detik sebelum melakukan workout selanjutnya.</string>
+
+    <string name="sp">Cara melakukan side plank mirip seperti plank biasa. Namun lengan yang bertumpu hanya satu, jika lengan yang
+    bertumpu sebelah kiri maka badan menghadap ke kanan dan sebaliknya. Posisi tangan yang berada di atas diletakan di pinggang. Tahan posisi
+    ini hingga waktu selesai, lalu ganti posisi dengan tumpuan lengan yang lain. </string>
+
+
+</resources>

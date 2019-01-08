@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/bakground_food"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="com.example.aprylianmaulana.healthycare.PolaMNormal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pola Makan Untuk Berat Badan Normal"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgnormal"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:layout_below="@id/textnormal"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/orangnormal"/>
+
+        <TextView
+            android:id="@+id/jdlnormal1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/imgnormal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="1. Jangan Lupakan Sarapan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/isinormal1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/jdlnormal1"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/isi_normal1"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/jdlnormal2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isinormal1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="2. Batasi Asupan Lemak dan Karbohidrat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/isinormal2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/jdlnormal2"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/isi_normal2"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/jdlnormal3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isinormal2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="3. Konsumsi Buah dan Makanan Berserat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/isinormal3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/jdlnormal3"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/isi_normal3"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/jdlnormal4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/isinormal3"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="4. Perbanyak Minum Air Putih"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/isinormal4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/jdlnormal4"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/isi_normal4"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cv3"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menuMakan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saran Menu Makan"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/jdlsarapan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menuMakan2"
+            android:text="Sarapan"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/sarapannrml1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jdlsarapan2"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:text="1. Roti Gandum Panggang"/>
+        <TextView
+            android:id="@+id/sarapannrml2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sarapannrml1"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:text="2. Telur Mata Sapi"/>
+        <TextView
+            android:id="@+id/sarapannrml3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sarapannrml2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="3. Jus Buah / Susu Low Fat"/>
+
+        <TextView
+            android:id="@+id/jdlmaksi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sarapannrml3"
+            android:text="Makan Siang"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/maksinrml1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jdlmaksi2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="1. Nasi Putih (Disarankan Nasi Merah) 1 Porsi"/>
+        <TextView
+            android:id="@+id/maksinrml2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maksinrml1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="2. Ikan Sarden"/>
+        <TextView
+            android:id="@+id/maksinrml3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maksinrml2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="3. Capcay Sayur Tahu"/>
+        <TextView
+            android:id="@+id/maksinrml4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maksinrml3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="4. Buah Semangka"/>
+
+        <TextView
+            android:id="@+id/jdlmakmal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maksinrml4"
+            android:text="Makan Malam"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/makmalnrml1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jdlmakmal2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="1. Nasi Putih (Disarankan Nasi Merah) 1 Porsi"/>
+        <TextView
+            android:id="@+id/makmalnrml2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/makmalnrml1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="2. Sepotong Ayam Panggang / Bakar"/>
+        <TextView
+            android:id="@+id/makmalnrml3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/makmalnrml2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="3. Sayur Bayam Bening"/>
+
+        <TextView
+            android:id="@+id/makmalnrml4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/makmalnrml3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="4. Buah Apel"/>
+
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+    </ScrollView>

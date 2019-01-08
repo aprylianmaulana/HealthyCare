@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/wobckgrnd6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="com.example.aprylianmaulana.healthycare.WOStepUpChair">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/imgsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif5"
+                    android:layout_margin="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_width="500dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/gif5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lakukan selama 30 detik"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="30s"
+                    android:layout_below="@+id/gif5"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="140dp"
+                    android:textColor="#149"
+                    android:textSize="50dp"/>
+
+
+                <Button
+                    android:id="@+id/startbtn5"
+                    android:layout_width="87dp"
+                    android:layout_height="45dp"
+                    android:text="Mulai"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv5"
+                    android:background="#149"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/ulangbtn5"
+                    android:layout_width="87dp"
+                    android:layout_height="45dp"
+                    android:text="Ulang"
+                    android:visibility="invisible"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv5"
+                    android:background="#149"
+                    android:textColor="@color/cardview_light_background"
+                    android:layout_marginBottom="10dp"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/textsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/imgsc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tutor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tutorial"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill"
+                    android:text="@string/stepup"
+                    android:textColor="#000"
+                    android:padding="16dp"
+                    android:textSize="15sp"
+                    android:layout_below="@id/tutor5"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>

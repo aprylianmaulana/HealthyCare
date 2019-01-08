@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aprylianmaulana.healthycare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logohealthy"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Healthy Care" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FoodActivity"
+            android:label="Food"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WOActivity"
+            android:label="Work Out"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HLActivity"
+            android:label="Healthy Lifestyle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PolaMKurus"
+            android:label="Pola Makan"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".PolaMNormal"
+            android:label="Pola Makan"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".PolaMGemuk"
+            android:label="Pola Makan"
+            android:parentActivityName=".FoodActivity" />
+        <activity
+            android:name=".PolaMObesitas"
+            android:label="Pola Makan"
+            android:parentActivityName=".FoodActivity" />
+
+        <activity android:name=".WOJumpingJack"
+            android:label="Jumping Jack"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOwallsit"
+            android:label="Wall Sit"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOPushUp"
+            android:label="Push Up"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOAbdoCrunch"
+            android:label="Abdominal Crunch"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOStepUpChair"
+            android:label="Step Up Onto Chair"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOSquat"
+            android:label="Squat"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOTricepDipChair"
+            android:label="Triceps Dip On Chair"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOPlank"
+            android:label="Plank"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOHighKnees"
+            android:label="High Knees Running Place"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOLunge"
+            android:label="Lunge"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOPushupRotation"
+            android:label="Push Up And Rotation"
+            android:parentActivityName=".WOActivity"/>
+
+        <activity android:name=".WOSidePlank"
+            android:label="Side Plank"
+            android:parentActivityName=".WOActivity"> </activity>
+    </application>
+
+</manifest>
